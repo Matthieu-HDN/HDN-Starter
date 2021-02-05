@@ -1,22 +1,109 @@
+/* =============================================================================================== */
+/* ========== RESET WP */
+/* =============================================================================================== */
+
+body {cursor:auto!important}
+body:not(.template-slider) #Header, .no-mh .wpb_column {min-height:0!important}
+.vc_row[data-vc-full-width] {overflow:visible}
+#Content, .vc_col-has-fill > .vc_column-inner, .vc_row-has-fill + .vc_row-full-width + .vc_row > .vc_column_container > .vc_column-inner, .vc_row-has-fill + .vc_row > .vc_column_container > .vc_column-inner, .vc_row-has-fill + .vc_vc_row > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner, .vc_row-has-fill + .vc_vc_row_inner > .vc_row > .vc_vc_column_inner > .vc_column_container > .vc_column-inner, .vc_row-has-fill > .vc_column_container > .vc_column-inner, .vc_row-has-fill > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner, .vc_row-has-fill > .vc_vc_column_inner > .vc_column_container > .vc_column-inner, .vc_section.vc_section-has-fill, .vc_section.vc_section-has-fill + .vc_row-full-width + .vc_section, .vc_section.vc_section-has-fill + .vc_section {padding-top:0}
+.vc_row, .wpb_wrapper > div, .wpb_content_element, .wpb_button, .wpb_raw_code:last-child, .wpb_raw_code p:last-child, ul.wpb_thumbnails-fluid > li {margin-bottom:0}
+* {box-sizing:border-box}https://novalt.site-privilege.pagesjaunes.fr/
+:focus {outline:none}
+i::before {margin:0!important}
+.footer_action{display:none;}
+
+
+/****** RAZ MARGES ******/
+
+.wpb_button, .wpb_content_element, ul.wpb_thumbnails-fluid > li {margin-bottom: 0px;}
+.wpb_wrapper > div {margin-bottom: 0px;}
+.vc_col-has-fill > .vc_column-inner,
+ .vc_row-has-fill + .vc_row-full-width + .vc_row > .vc_column_container > .vc_column-inner,
+ .vc_row-has-fill + .vc_row > .vc_column_container > .vc_column-inner,
+ .vc_row-has-fill + .vc_vc_row > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner,
+ .vc_row-has-fill + .vc_vc_row_inner > .vc_row > .vc_vc_column_inner > .vc_column_container > .vc_column-inner,
+ .vc_row-has-fill > .vc_column_container > .vc_column-inner,
+ .vc_row-has-fill > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner,
+ .vc_row-has-fill > .vc_vc_column_inner > .vc_column_container > .vc_column-inner {padding-top: 0px;}
 
 
 
+/* ---------------------------------------------------------------- UNMARGES WP ---------------------------------------------------------------- */
+.wpb_wrapper > div {margin-bottom:0px;width:100%;}
+.wpb_button, .wpb_content_element, .wpb_row, ul.wpb_thumbnails-fluid > li {margin-bottom: 0px;}
+.vc_col-has-fill > .vc_column-inner, .vc_row-has-fill + .vc_row-full-width + .vc_row > .vc_column_container > .vc_column-inner, .vc_row-has-fill + .vc_row > .vc_column_container > .vc_column-inner, .vc_row-has-fill + .vc_vc_row > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner, .vc_row-has-fill + .vc_vc_row_inner > .vc_row > .vc_vc_column_inner > .vc_column_container > .vc_column-inner, .vc_row-has-fill > .vc_column_container > .vc_column-inner, .vc_row-has-fill > .vc_row > .vc_vc_column > .vc_column_container > .vc_column-inner, .vc_row-has-fill > .vc_vc_column_inner > .vc_column_container > .vc_column-inner {
+    padding-top:0px;}
+
+/* =============================================================================================== */
+/* ========== VARIABLES */
+/* =============================================================================================== */
 
 
+:root {
+
+/* TYPO */
+
+--typo1:'Arial', sans-serif;
+--typo2:'Raleway', sans-serif;
+--typo3:'Roboto', sans-serif;
 
 
+/* COLOR */
 
+--c2:#FEE63C;
+--c2-1:#7F731E;
+--c2--1:#FFF29D;
+
+--c1:#2EE07E;
+--c1-1:#17703F;
+--c1--1:#96EFBF;
+
+--c-dark1:#222;
+--c-dark1-1:#292929;
+--c-dark1--1:#3D3D3D;
+
+--c-txt:#404040;
+--c-grey:#f0f5f8;
+--c-white:#fff;
+
+ /* MARGES */
+ 
+ --p-desk:100px;
+ --p-tabl:50px;
+ --p-mobl:25px;
+ 
+ /* RUPTURES */
+ 
+ --vue-full-max:1400px;
+ 
+ --vue-desk-l-min:1240px;
+ --vue-desk-l-max:1239px;
+ 
+ --vue-desk-s-min:1024px;
+ --vue-desk-s-max:1023px;
+ 
+ --vue-tabl-2-min:960px;
+ --vue-tabl-2-max:659px;
+ 
+ --vue-tabl-2-min:768px;/**/
+ --vue-tabl-2-max:767px;
+ 
+ --vue-mobl-min:25px;
+ --vue-mobl-max:25px;
+ 
+ 
+}
 
 
 /* ---------------------------------------------------------------- MARGES ---------------------------------------------------------------- */
 
-.p-171-t{padding-top:171px;}
+.p-170-t{padding-top:171px;}
 
 .p-100{padding:100px;}
 .p-100-tb {padding-top:100px;padding-bottom:100px;}
 .p-100-t{padding-top:100px;}
 .p-100-b{padding-bottom:100px;}
-.p-100-lr {padding-left:100px;padding-right:100px;}
+.p-100-lr{padding-left:100px;padding-right:100px;}
 .p-100-l{padding-left:100px;}
 .p-100-r{padding-right:100px;}
 
@@ -56,39 +143,7 @@
 .anim-delai-50{animation-delay: 5000ms;}
 
 
-/* =============================================================================================== */
-/* ========== VARIABLES */
-/* =============================================================================================== */
 
-
-:root {
-
-/* TYPO */
-
---typo1:'Arial', sans-serif;
---typo2:'Raleway', sans-serif;
---typo3:'Roboto', sans-serif;
-
-
-/* COLOR */
-
---c2:#FEE63C;
---c2-1:#7F731E;
---c2--1:#FFF29D;
-
---c1:#2EE07E;
---c1-1:#17703F;
---c1--1:#96EFBF;
-
---c-dark1:#222;
---c-dark1-1:#292929;
---c-dark1--1:#3D3D3D;
-
---c-txt:#404040;
---c-grey:#f0f5f8;
---c-white:#fff;
-
-}
 
 
 /* =============================================================================================== */
@@ -261,10 +316,10 @@ a:hover {   text-decoration: none;color: #aaa;}
   
 }
 /*------------------------------------------------------------------------------------*/
-@media only screen and (max-width:767px) {
+@media only screen and (max-width:768px) {
    
 }
-@media only screen and (max-width: 768px){
+@media only screen and (max-width: 767px){
     
 }
 /*------------------------------------------------------------------------------------*/
