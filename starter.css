@@ -1,0 +1,279 @@
+
+
+
+
+
+
+
+
+
+
+/* ---------------------------------------------------------------- MARGES ---------------------------------------------------------------- */
+
+.p-171-t{padding-top:171px;}
+
+.p-100{padding:100px;}
+.p-100-tb {padding-top:100px;padding-bottom:100px;}
+.p-100-t{padding-top:100px;}
+.p-100-b{padding-bottom:100px;}
+.p-100-lr {padding-left:100px;padding-right:100px;}
+.p-100-l{padding-left:100px;}
+.p-100-r{padding-right:100px;}
+
+.p-50{padding:50px;}
+.p-50-tb{padding-top:50px;padding-bottom:50px;}
+.p-50-t{padding-top:50px;}
+.p-50-b{padding-bottom:50px;}
+.p-50-lr {padding-left:50px;padding-right:50px;}
+.p-50-l{padding-left:50px;}
+.p-50-r{padding-right:50px;}
+
+.p-25{padding:25px;}
+.p-25-tb{padding-top:25px;padding-bottom:25px;}
+.p-25-t{padding-top:25px;}
+.p-25-b{padding-bottom:25px;}
+.p-25-lr {padding-left:25px;padding-right:25px;}
+.p-25-l{padding-left:25px;}
+.p-25-r{padding-right:25px;}
+
+.anim-delai-1{animation-delay: 100ms;}
+.anim-delai-2{animation-delay: 200ms;}
+.anim-delai-3{animation-delay: 300ms;}
+.anim-delai-4{animation-delay: 400ms;}
+.anim-delai-5{animation-delay: 500ms;}
+.anim-delai-6{animation-delay: 600ms;}
+.anim-delai-7{animation-delay: 100ms;}
+.anim-delai-8{animation-delay: 200ms;}
+.anim-delai-9{animation-delay: 300ms;}
+.anim-delai-10{animation-delay: 1000ms;}
+.anim-delai-15{animation-delay: 1500ms;}
+.anim-delai-20{animation-delay: 2000ms;}
+.anim-delai-25{animation-delay: 2500ms;}
+.anim-delai-30{animation-delay: 3000ms;}
+.anim-delai-35{animation-delay: 3500ms;}
+.anim-delai-40{animation-delay: 4000ms;}
+.anim-delai-45{animation-delay: 4500ms;}
+.anim-delai-50{animation-delay: 5000ms;}
+
+
+/* =============================================================================================== */
+/* ========== VARIABLES */
+/* =============================================================================================== */
+
+
+:root {
+
+/* TYPO */
+
+--typo1:'Arial', sans-serif;
+--typo2:'Raleway', sans-serif;
+--typo3:'Roboto', sans-serif;
+
+
+/* COLOR */
+
+--c2:#FEE63C;
+--c2-1:#7F731E;
+--c2--1:#FFF29D;
+
+--c1:#2EE07E;
+--c1-1:#17703F;
+--c1--1:#96EFBF;
+
+--c-dark1:#222;
+--c-dark1-1:#292929;
+--c-dark1--1:#3D3D3D;
+
+--c-txt:#404040;
+--c-grey:#f0f5f8;
+--c-white:#fff;
+
+}
+
+
+/* =============================================================================================== */
+/* ========== PREFORMATTED ROW CLASS */
+/* =============================================================================================== */
+
+
+/* ROW-FIVECOL */
+
+.row-fivecol > .wpb_column {width:calc(100% / 5 - 15px)}
+
+@media only screen and (max-width:959px) {
+.row-fivecol {justify-content:space-around!important}
+.row-fivecol > .wpb_column {width:calc(100% / 3 - 15px)}
+.row-fivecol > .wpb_column:nth-last-child(-n+2) {margin-top:4vh}
+.row-fivecol.mcol2 > .wpb_column:nth-last-child(-n+2) {margin-top:2vh}
+.row-fivecol.mcol6 > .wpb_column:nth-last-child(-n+2) {margin-top:6vh}
+}
+
+@media only screen and (max-width:767px) {
+.row-fivecol > .wpb_column {width:calc(100% / 2 - 15px)}
+.row-fivecol > .wpb_column:nth-last-child(-n+3) {margin-top:4vh}
+.row-fivecol.mcol2 > .wpb_column:nth-last-child(-n+3) {margin-top:2vh}
+.row-fivecol.mcol6 > .wpb_column:nth-last-child(-n+3) {margin-top:6vh}
+}
+
+
+/* =============================================================================================== */
+/* ========== HEADER */
+/* =============================================================================================== */
+
+
+
+
+/* =============================================================================================== */
+/* ========== ACTION BAR */
+/* =============================================================================================== */
+
+
+
+/* =============================================================================================== */
+/* ========== LOGO */
+/* =============================================================================================== */
+
+
+
+/* =============================================================================================== */
+/* ========== MENU */
+/* =============================================================================================== */
+
+
+
+
+/* =============================================================================================== */
+/* ========== SUBMENU */
+/* =============================================================================================== */
+
+
+ a{   color: #fee63c;}
+a:hover {   text-decoration: none;color: #aaa;}
+
+/* =============================================================================================== */
+/* ========== CONTENT MY-BTN */
+/* =============================================================================================== */
+
+/* MY-BTN */
+
+.my-btn-container {line-height:0; text-align:center;}
+.my-btn-container:not(.no-marge) {margin-top:30px;}
+
+.my-btn, a.button {
+     position:relative;display:
+    inline-block;
+    padding:15px 25px;
+    border-style:solid;
+    border-width:2px;
+    border-radius:0px;
+    box-sizing:border-box;
+    transition:all 350ms ease-in-out!important;
+    transform:perspective(1px) translateZ(0);
+    overflow:hidden;
+     font-family:'Arial', sans-serif;
+    font-size:1em;line-height:1.2;
+    font-weight:700!important;
+    text-decoration:none!important;
+    text-transform:uppercase;
+    letter-spacing:.7px;
+    text-align:center;
+    text-shadow:none;
+    color: var(--c-dark1);
+    background-color: var(--c2);
+    border-color: var(--c2);
+}
+.my-btn:hover {color:var(--c-dark1)!important;background-color:#FFF;border-color:#FFF;}
+.my-btn i {padding-right:10px;color:var(--c-dark1);transition:all 350ms ease-in-out}
+.my-btn:hover i {color:var(--c-dark1);!important}
+
+.my-btn.cta {font-size:1.2em;padding:20px 35px;color:var(--c-dark1)!important;background-color:#fff;border-color:var(--c-dark1);text-transform: none;}
+.my-btn.cta:hover {color:#FFF!important;background-color:var(--c-dark1);border-color:#fff}
+.my-btn.cta i {color:#fff!important}
+.my-btn.cta:hover i {color:#0058B5!important}
+
+
+/* =============================================================================================== */
+/* ========== CONTENT ON-DARK */
+/* =============================================================================================== */
+
+.on-dark h1, .on-dark p.h1-f {color:#fff}
+.on-dark h1 .subtitle, .on-dark p.h1-f .subtitle {color:#fff}
+.on-dark h2, .on-dark .h2-f h3, .on-dark .h2-f p, .on-dark h3.h2-f, .on-dark p.h2-f {color:#fff}
+.on-dark h2 .subtitle, .on-dark .h2-f h3 .subtitle, .on-dark .h2-f p .subtitle, .on-dark h3.h2-f .subtitle, .on-dark p.h2-f .subtitle {color:#fff}
+.on-dark h3, .on-dark .h3-f h2, .on-dark .h3-f p, .on-dark h2.h3-f, .on-dark p.h3-f {color:#fff}
+.on-dark h3 .subtitle, .on-dark .h3-f h2 .subtitle, .on-dark .h3-f p .subtitle, .on-dark h2.h3-f .subtitle, .on-dark p.h3-f .subtitle {color:#fff}
+
+.on-dark p, .on-dark .wpb_content_element ul li, .on-dark.wpb_content_element ul li {color:#fff}
+
+.on-dark .wpb_content_element a, .on-dark.wpb_content_element a {color:#FFF}
+.on-dark .wpb_content_element a:hover, .on-dark.wpb_content_element a:hover {color:#FFBD3A;text-decoration:underline}
+
+.on-dark .my-btn:not(.cta) {color:#FFF!important;background-color:transparent;border-color:#fff}
+.on-dark .my-btn:not(.cta):hover {color:var(--c1-1)!important;background-color:#FFAF0F;border-color:#FFF}
+.on-dark .my-btn:not(.cta) i {color:#fff!important}
+.on-dark .my-btn:not(.cta):hover i {color:#292929!important}
+
+
+.on-dark .my-btn.cta {color:#031E54!important;background-color:#FFF;border-color:#FFF}
+.on-dark .my-btn.cta:hover {color:#FFF!important;background-color:transparent;border-color:#FFF}
+.on-dark .my-btn.cta i {color:#031E54!important}
+.on-dark .my-btn.cta:hover i {color:#FFF!important}
+
+
+/* =============================================================================================== */
+/* ========== FOOTER */
+/* =============================================================================================== */
+
+#Footer .footer_action {display:none}
+#Footer .widgets_wrapper {padding:0!important}
+#Footer .widgets_wrapper .widget {padding:0!important}
+#Footer p {margin-bottom:0}
+
+#Footer {
+    background: #222222;
+    color: var(--c-white);
+    /*padding-top:50px;*/
+  /*padding-bottom:50px;*/
+}
+
+
+/* =============================================================================================== */
+/* ========== AJUSTEMENTS */
+/* =============================================================================================== */
+
+
+/* =============================================================================================== */
+/* ========== RESPONSIVE */
+/* =============================================================================================== */
+
+@media only screen and (max-width:1440px) {
+
+}
+/*------------------------------------------------------------------------------------*/
+@media only screen and (max-width:1240px){
+
+}
+@media only screen and (max-width:1239px){
+
+}
+/*------------------------------------------------------------------------------------*/
+@media only screen and (max-width:960px) {
+  
+}
+/*------------------------------------------------------------------------------------*/
+@media only screen and (max-width:767px) {
+   
+}
+@media only screen and (max-width: 768px){
+    
+}
+/*------------------------------------------------------------------------------------*/
+@media only screen and (max-width:425px) {
+  
+}
+/*------------------------------------------------------------------------------------*/
+@media only screen and (max-width:320px) {
+  
+}
+
+
